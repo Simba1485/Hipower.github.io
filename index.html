@@ -14,12 +14,15 @@
 
     header {
       color: #e5e7eb;
-      padding: 24px 0 40px;
+      padding: 24px 0 60px;
       border-bottom: 1px solid #1f2937;
-      background:
-        linear-gradient(135deg, rgba(2,6,23,0.90), rgba(15,23,42,0.88)),
-        url("propane-storage-tank.jpg") center/cover no-repeat;
-      background-attachment: scroll;
+      background: url("propane-storage-tank.jpg") center/cover no-repeat;
+    }
+
+    /* add this new overlay + header-inner container */
+    .header-inner {
+      background: rgba(2, 6, 23, 0.55); /* lighter overlay so image is visible */
+      padding: 16px 0 40px;
     }
 
     .container { width: 90%; max-width: 1100px; margin: 0 auto; }
@@ -290,3 +293,4 @@
 
 </body>
 </html>
+
